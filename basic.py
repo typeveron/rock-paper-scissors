@@ -17,18 +17,18 @@ if player1 == computer:
     print("Tie")
 elif player1 == "rock":
    if computer == "scissors":
-    print("player1 wins!")
-else:
-    print("computer wins!")
+        print("player1 wins!")
+   else:
+        print("computer wins!")
 elif player1 == "paper":
- if computer == "scissors":
-     print("computer wins!")
-else:
-    print("player1 wins!")
+    if computer == "scissors":
+        print("computer wins!")
+    else:
+        print("player1 wins!")
 elif player1 == "scissors":
    if computer == "rock":
-    print("computer wins!")
+        print("computer wins!")
 elif computer == "paper":
-    print("player1 wins!")
+        print("player1 wins!")
 else:
-    print("input a valid move")
+        print("input a valid move")
